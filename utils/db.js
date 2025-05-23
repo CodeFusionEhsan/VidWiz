@@ -1,7 +1,7 @@
 // utils/db.js
 import mongoose from 'mongoose';
 
-const MONGODB_URI = "mongodb+srv://ehsan:ehsan2024@cluster0.vqrb8yl.mongodb.net/VidWiz?retryWrites=true&w=majority";
+const MONGODB_URI = process.env.MONGO_URI;
 
 if (!MONGODB_URI) {
   throw new Error('MONGODB_URI must be defined in your .env.local file');
