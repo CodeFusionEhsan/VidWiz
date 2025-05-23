@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Video Sharing & Editing Platform
 
-## Getting Started
+**By Ehsan Saleem**
 
-First, run the development server:
+**Live Demo - https://vidwiz-video.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A modern, fully responsive video sharing platform built with Next.js, MongoDB, and Tailwind CSS.  
+Users can upload, view, search, like, and comment on videos. Each user has a customizable channel page.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **User Authentication:** Secure sign-in and sign-up with Clerk (or your chosen auth provider).
+- **Video Upload:** Upload videos with title, description, and tags.
+- **Video Playback:** Watch videos with a built-in player.
+- **User Channels:** Each user has a personal channel page.
+- **Like & Comment:** Interact with videos by liking and commenting.
+- **Search:** Find videos by title, description, or tags.
+- **Responsive Design:** Looks great on any device (desktop, tablet, mobile).
+- **Video Management:** Users can delete their own videos.
+- **Hero Section:** Welcomes new users with a call to action.
+- **Video Editor:** A Simple Video Editor Is integrated in this application using cloudinary API with live preview.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend:** Next.js (App Router), React, Tailwind CSS
+- **Backend:** Next.js API Routes
+- **Database:** MongoDB (with Mongoose)
+- **Authentication:** Clerk (or NextAuth)
+- **Video Storage:** Cloudinary
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
