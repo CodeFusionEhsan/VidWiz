@@ -11,7 +11,7 @@ Users can upload, view, search, like, and comment on videos. Each user has a cus
 
 ## Features
 
-- **User Authentication:** Secure sign-in and sign-up with Clerk (or your chosen auth provider).
+- **User Authentication:** Secure sign-in and sign-up with Clerk.
 - **Video Upload:** Upload videos with title, description, and tags.
 - **Video Playback:** Watch videos with a built-in player.
 - **User Channels:** Each user has a personal channel page.
@@ -29,6 +29,6 @@ Users can upload, view, search, like, and comment on videos. Each user has a cus
 - **Frontend:** Next.js (App Router), React, Tailwind CSS
 - **Backend:** Next.js API Routes
 - **Database:** MongoDB (with Mongoose)
-- **Authentication:** Clerk (or NextAuth)
+- **Authentication:** Clerk
 - **Video Storage:** Cloudinary
 
