@@ -123,8 +123,10 @@ export default function Home() {
                       />
                     </Link>
                     <div className="p-4">
+                      <Link href={`/videos/${video._id}`}>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">{video.title}</h3>
                       <p className="text-gray-600 text-sm mb-3">{video.description.slice(0, 300) + "..."}</p>
+                       </Link>
                       <div className="flex items-center space-x-2 mb-3">
                         <img
                           src={video.uploaded_by.user_image}
