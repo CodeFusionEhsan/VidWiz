@@ -38,7 +38,7 @@ export default function VideoPage({ params }) {
         if (res.ok) {
           setVideo(data);
           setLikesCount(data.likes.length);
-          setIsLiked(data.likes.includes(user.id));
+          setIsLiked(data.likes.includes(user?.id));
         } else {
           setError(data.error || 'Video not found');
         }
