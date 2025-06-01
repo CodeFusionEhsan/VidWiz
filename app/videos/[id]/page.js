@@ -50,7 +50,7 @@ export default function VideoPage({ params }) {
       }
     };
     fetchVideo();
-  }, []);
+  }, [user, isLoaded]);
 
   // Handle like
   const handleLike = async () => {
